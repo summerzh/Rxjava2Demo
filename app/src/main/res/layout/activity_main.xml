@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:id="@+id/activity_main"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.gyt.rxjava2demo.MainActivity">
+
+    <Button
+        android:textAllCaps="false"
+        android:id="@+id/btn_one"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Rxjava入门一：ObservableEmitter和Disposable"/>
+
+    <Button
+        android:textAllCaps="false"
+        android:layout_marginTop="10dp"
+        android:id="@+id/btn_two"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Rxjava入门二：线程切换"/>
+
+    <Button
+        android:textAllCaps="false"
+        android:layout_marginTop="10dp"
+        android:id="@+id/btn_three"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Rxjava入门二：Flatmap"/>
+</LinearLayout>
